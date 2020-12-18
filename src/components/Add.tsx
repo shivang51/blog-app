@@ -33,10 +33,6 @@ function Add(props: Props) {
     }
   }
 
-  React.useEffect(() => {
-    console.log("Clicked", clicked);
-  }, [clicked]);
-
   return (
     <div className="add">
       <div className="compileArea">

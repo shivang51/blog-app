@@ -14,22 +14,22 @@ function App() {
     setBlogs([...blogs, blog]);
   }
 
-  React.useEffect(() => {
-    console.log("Blog", blogs);
-  }, [blogs]);
-
   return (
     <div className="App">
       <Header />
       <Switch>
         <Route path="/" exact />
-        <Route
-          path="/add"
-          exact
-          component={() => <Add setBlogs={setblogs} />}
-        />
+        <Route path="/add" exact>
+          <Add setBlogs={setblogs} />
+        </Route>
         <Route path="/blogs" exact component={() => <Blogs blogs={blogs} />} />
-        <Route path="/read" exact component={Read} />
+        <Route
+          path="/read/:ind"
+          exact
+          component={(match: any) => (
+            <Read ind={match.match.params.ind} blogs={blogs} />
+          )}
+        />
       </Switch>
     </div>
   );

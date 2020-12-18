@@ -1,0 +1,53 @@
+.blogs {
+  padding: 5px;
+  overflow-y: auto;
+}
+
+.blogs::-webkit-scrollbar {
+  background: #141414;
+}
+
+.blogs::-webkit-scrollbar-track {
+  background: #141414;
+}
+
+.blogs::-webkit-scrollbar-thumb {
+  border: 2px solid #141414;
+  background: rgba(75, 0, 130, 0.5);
+}
+
+.blogs::-webkit-scrollbar-thumb:hover {
+  background-color: indigo;
+}
+
+.blogs .blog {
+  background-color: #141414;
+  float: left;
+  padding: 8px;
+  margin: 5px;
+  border: 10px solid #141414;
+  border-radius: 5px;
+  max-width: 30%;
+}
+
+.blogs .blog:hover {
+  background-color: #1e1e1e;
+  cursor: pointer;
+}
+
+.blogs .blog .title {
+  font-weight: 500;
+  cursor: pointer;
+  white-space: pre;
+  overflow: hidden;
+}
+
+.blogs .blog .body {
+  font-weight: 400;
+  white-space: pre-wrap;
+  max-height: 106px;
+  overflow: hidden;
+  color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+}
+/*# sourceMappingURL=Blogs.css.map */

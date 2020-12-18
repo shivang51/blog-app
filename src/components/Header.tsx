@@ -10,7 +10,7 @@ function Header() {
         <Link to="/add" className="button">
           New
         </Link>
-        <Link to="blogs" className="button">
+        <Link to="/blogs" className="button">
           Blogs
         </Link>
       </div>

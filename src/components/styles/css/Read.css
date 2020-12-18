@@ -1,0 +1,60 @@
+.read {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  place-items: center;
+  padding: 5px;
+  margin: 5px;
+  overflow: hidden;
+}
+
+.read .title {
+  font-weight: 500;
+  background-color: #141414;
+  border-radius: 5px;
+  border: 5px solid #141414;
+  margin: 5px;
+  padding: 5px;
+  min-width: 80%;
+}
+
+.read h4.body {
+  white-space: pre-wrap;
+  padding: 5px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  font-weight: 400;
+  background-color: #141414;
+  border-radius: 5px;
+  border: 5px solid #141414;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 5px;
+  width: 80%;
+  overflow: auto;
+}
+
+.read h4.body::-webkit-scrollbar {
+  background: #141414;
+}
+
+.read h4.body::-webkit-scrollbar-track {
+  background: #141414;
+}
+
+.read h4.body::-webkit-scrollbar-thumb {
+  border: 2px solid #141414;
+  background: rgba(75, 0, 130, 0.5);
+}
+
+.read h4.body::-webkit-scrollbar-thumb:hover {
+  background-color: indigo;
+}
+/*# sourceMappingURL=Read.css.map */
