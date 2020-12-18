@@ -1,0 +1,34 @@
+.header {
+  display: flex;
+  padding: 5px;
+  background-color: rgba(45, 45, 45, 1);
+
+  h1 {
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: cursive;
+    cursor: context-menu;
+  }
+
+  .controls {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    place-items: center;
+
+    .button {
+      margin: auto 5px;
+      padding: 5px 15px;
+      background-color: rgba(30, 30, 30, 1);
+      color: rgba(255, 255, 255, 0.7);
+      border: 2px solid rgba(126, 6, 211, 1);
+      border-radius: 5px;
+      text-decoration: none;
+
+      &:hover {
+        color: white;
+        cursor: pointer;
+      }
+    }
+  }
+}

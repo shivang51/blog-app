@@ -1,0 +1,43 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5px;
+  background-color: #2d2d2d;
+}
+
+.header h1 {
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: cursive;
+  cursor: context-menu;
+}
+
+.header .controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  place-items: center;
+}
+
+.header .controls .button {
+  margin: auto 5px;
+  padding: 5px 15px;
+  background-color: #1e1e1e;
+  color: rgba(255, 255, 255, 0.7);
+  border: 2px solid #7e06d3;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.header .controls .button:hover {
+  color: white;
+  cursor: pointer;
+}
+/*# sourceMappingURL=Header.css.map */

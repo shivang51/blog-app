@@ -1,0 +1,54 @@
+.add {
+  flex: 1;
+  padding: 5px;
+
+  .compileArea {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    #title {
+      margin: 3px;
+      width: 60%;
+      font-size: 1rem;
+      padding: 5px;
+      background: rgba(20, 20, 20, 1);
+      border-radius: 5px;
+      border: 5px solid rgba(20, 20, 20, 1);
+      color: white;
+      font-weight: 400;
+    }
+
+    #body {
+      margin: 3px;
+      font-size: 1rem;
+      padding: 5px;
+      background: rgba(20, 20, 20, 1);
+      border-radius: 5px;
+      border: 5px solid rgba(20, 20, 20, 1);
+      color: white;
+      font-weight: 400;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      width: 80%;
+      height: 80%;
+      resize: none;
+    }
+
+    .controls {
+      margin: 5px;
+      padding: 3px;
+      #add-button {
+        padding: 5px 15px;
+        background-color: rgba(20, 20, 20, 1);
+        color: rgba(255, 255, 255, 0.5);
+        border: 2px solid rgba(75, 6, 130, 1);
+        border-radius: 5px;
+        &:hover {
+          color: white;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
